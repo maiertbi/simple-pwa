@@ -1,10 +1,28 @@
-html, body {
+html, body, main {
     height: 100%;
 
 }
 
-body {
-    display: flex;
+main {
+    
+    display:flex;
     justify-content: center;
     align-items: center;
+}
+
+button {
+    padding:10px;
+    font-weight: bold;
+}
+
+article {
+    display: none;
+    background: black;
+    color: white;
+    border-radius: 10px;
+    padding: 20px;
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    right: 10px;
 }
